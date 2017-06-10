@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 //import neo4j from 'neo4j-driver';
-//var neo4j = require('neo4j-driver').v1;
+var neo4j = require('neo4j-driver').v1;
  //var neo4j = require('neo4j');
- //var driver = neo4j.driver('bolt://localhost',neo4j.auth.basic('neo4j','OMSAIRAM@faith1'));
+ var driver = neo4j.driver('bolt://localhost',neo4j.auth.basic('neo4j','OMSAIRAM@faith1'));
 
   
 
